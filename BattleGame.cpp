@@ -42,6 +42,9 @@ int BattleGame::calculateDamage(ActionType action) {
     } else if (action == ActionType::BLOCK) {
         return 0;
     }
+
+    return 0;
+    
 }
 
 
@@ -157,7 +160,7 @@ void BattleGame::displayStatus() {
 // TODO: Returns the current game's state.
 // ========================================
 GameState BattleGame::getGameState() {
-   
+    return currentState;
 }
 
 
@@ -176,7 +179,7 @@ void BattleGame::displayStatistics() {
 // TODO: Returns the total number of games played.
 // ========================================
 int BattleGame::getTotalGamesPlayed() {
-
+    return totalGamesPlayed; 
 }
 
 
