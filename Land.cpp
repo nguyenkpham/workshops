@@ -37,7 +37,7 @@ void Land::printInfo() const {
             break;
     }
 
-    std::cout << "Land - " << name << " (Cost " << cost << ": " << typeName << " land." << std::endl;
+    std::cout << "Land - " << name << " (Cost " << cost << "): " << typeName << " land." << std::endl;
   // TODO: print land details in format:
   // "Land - <name> (Cost <cost>): <TypeName> land."
 }
