@@ -41,7 +41,7 @@ void Creature::printInfo() const {
 
 
     std::cout << "Creature - " << name << 
-    "(Cost " << cost << "): Creature Type=" << typeName << ", Attack=" << attack << ", Defense=" << defense <<std::endl;
+    " (Cost " << cost << "): Creature Type=" << typeName << ", Attack=" << attack << ", Defense=" << defense <<std::endl;
 }
 
 int Creature::getAttack() const {
